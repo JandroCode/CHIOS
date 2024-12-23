@@ -5,7 +5,7 @@ public class Arrays {
         // Sirven para almacenar varios datos del mismo tipo
         int[] numeros = {1,23,2,78};
 
-        // Posiciones        0        1            2
+        // Posiciones         0        1            2
         String[] nombres = {"Ana" , "Miguel" , "Alberto"};
 
         System.out.println("El primer elemento del array es: " + nombres[0]);
@@ -22,7 +22,6 @@ public class Arrays {
         System.out.println("Elementos del array 'valores'");
 
         /*
-
 
         for(int i=0;i< valores.length; i++){
             System.out.print(valores[i] + " ");
