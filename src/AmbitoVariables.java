@@ -16,13 +16,13 @@ public class AmbitoVariables {
         if(numeroUno >= 100){
             int numeroTres = 56;
             System.out.println(numeroUno);
-            System.out.println(numeroDos); // No puedo acceder, estoy fuera del contexto
+            //System.out.println(numeroDos); // No puedo acceder, estoy fuera del contexto
         }
 
         System.out.println(numeroUno); // No hay problemas porque estoy dentro de las llaves del main
 
-        System.out.println(numeroDos); // No puedo acceder a esta variable  porque estoy fuera de ese contexto
-        System.out.println(numeroTres); // No puedo acceder a esta variable  porque estoy fuera de ese contexto
+        //System.out.println(numeroDos); // No puedo acceder a esta variable  porque estoy fuera de ese contexto
+        //System.out.println(numeroTres); // No puedo acceder a esta variable  porque estoy fuera de ese contexto
 
 
     }
