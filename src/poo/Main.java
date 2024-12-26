@@ -2,6 +2,8 @@ package poo;
 
 import poo.clases.Coche;
 import poo.clases.Empleado;
+import poo.clases.constructores.Vivienda;
+
 import java.util.Scanner;
 
 public class Main {
@@ -55,6 +57,9 @@ public class Main {
         System.out.println("El precio del seguro es " + ferrari.calculoPrecioDelSeguroConDosParametros("Rojo" , 20));
         System.out.println("El precio del seguro es " + ferrari.calculoPrecioDelSeguroConDosParametros("Rojo" , 34));
         System.out.println("El precio del seguro es " + ferrari.calculoPrecioDelSeguroConDosParametros("Amarillo" , 34));
+
+
+
 
     }
 }
